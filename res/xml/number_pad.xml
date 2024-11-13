@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp">
+
+    <Row>
+        <Key android:codes="-1" android:keyLabel="Morse" android:keyWidth="100%p"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-2"
+            android:keyLabel="ENTER"
+            android:keyWidth="100%p"
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
